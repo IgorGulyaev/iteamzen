@@ -10122,3 +10122,13 @@ h5 {
 .affix {
     position: fixed
 }
+
+
+/* CUSTOM */
+a[data-action="showImagePreview"] img {
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+/* END CUSTOM */
