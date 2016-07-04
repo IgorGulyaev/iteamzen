@@ -1,0 +1,42 @@
+{
+    "fields": {
+        "name": "Nombre",
+        "roles": "Roles",
+        "assignmentPermission": "Asignación de permisos",
+        "userPermission": "Permisos de Usuario"
+    },
+    "links": {
+        "users": "Usuarios",
+        "teams": "Equipos"
+    },
+    "tooltips": {
+        "assignmentPermission": "Allows to restrict an ability for users to assign records to other users.\n\nall - no restriction\n\nteam - can assign to users from own teams\n\nno - can assign only to self",
+        "userPermission": "Allows to restrict an ability for users to view activities, calendar and stream of other users.\n\nall - can view all\n\nteam - can view activities of teammates only\n\nno - can't view"
+    },
+    "labels": {
+        "Access": "Acceso",
+        "Create Role": "Crear Rol"
+    },
+    "options": {
+        "accessList": {
+            "not-set": "sin establecer",
+            "enabled": "activado",
+            "disabled": "desactivado"
+        },
+        "levelList": {
+            "all": "todos",
+            "team": "equipo",
+            "own": "propio",
+            "no": "no",
+            "not-set": "sin establecer"
+        }
+    },
+    "actions": {
+        "read": "Leer",
+        "edit": "Editar",
+        "delete": "Borrar"
+    },
+    "messages": {
+        "changesAfterClearCache": "Todos los cambios en el control de acceso serán aplicacados después de limpiar la caché"
+    }
+}

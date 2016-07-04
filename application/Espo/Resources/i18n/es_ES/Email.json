@@ -1,0 +1,90 @@
+{
+    "fields": {
+        "name": "Asunto",
+        "parent": "Padre",
+        "status": "Estado",
+        "dateSent": "Enviado",
+        "from": "De",
+        "to": "Para",
+        "cc": "CC",
+        "bcc": "BCC",
+        "replyTo": "Responder a",
+        "replyToString": "Responder a (String)",
+        "isHtml": "Es Html",
+        "body": "Cuerpo",
+        "subject": "Asunto",
+        "attachments": "Adjuntos",
+        "selectTemplate": "Seleccione una Plantilla",
+        "fromEmailAddress": "De la dirección",
+        "toEmailAddresses": "a la Dirección",
+        "emailAddress": "Correo Electrónico",
+        "deliveryDate": "Fecha Entrega",
+        "account": "Cuenta",
+        "users": "Usuarios",
+        "replied": "Respondió",
+        "replies": "Respuestas",
+        "isRead": "Es leído",
+        "isImportant": "Es Importante",
+        "isUsers": "Es del Usuario",
+        "inTrash": "En Papelera",
+        "Move to Trash": "Mover a la Papelera",
+        "Retrieve from Trash": "Recuperar de la Papelera"
+    },
+    "links": {
+        "replied": "Respondió",
+        "replies": "Respuestas"
+    },
+    "options": {
+        "status": {
+            "Draft": "Borrador",
+            "Sending": "Enviando",
+            "Sent": "Enviado",
+            "Archived": "Archivado",
+            "Received": "Recibido",
+            "Failed": "Falló"
+        }
+    },
+    "labels": {
+        "Create Email": "Archivar Correo",
+        "Archive Email": "Archivar Correo",
+        "Compose": "Nuevo",
+        "Reply": "Responder",
+        "Reply to All": "Responder a Todos",
+        "Forward": "Reenviar",
+        "Original message": "Mensaje Original",
+        "Forwarded message": "Mensaje reenviado",
+        "Email Accounts": "Cuentas de Correo Electrónico",
+        "Inbound Emails": "Grupo de Cuentas de Correo",
+        "Email Templates": "Plantillas de Correo",
+        "Send Test Email": "Send Test Email",
+        "Send": "Enviar",
+        "Email Address": "Correo Electrónico",
+        "Mark Read": "Marcar como Leído",
+        "Sending...": "Enviando...",
+        "Save Draft": "Guardar Borrador",
+        "Mark all as read": "Marcar todos como leídos",
+        "Show Plain Text": "Ver en texto plano",
+        "Mark as Important": "Marcar como Importante",
+        "Unmark Importance": "Marcar como No Importante"
+    },
+    "messages": {
+        "noSmtpSetup": "No SMTP setup. {link}.",
+        "testEmailSent": "Test email has been sent",
+        "emailSent": "El correo ha sido enviado",
+        "savedAsDraft": "Guardado como borrador"
+    },
+    "presetFilters": {
+        "sent": "Enviado",
+        "archived": "Archivado",
+        "inbox": "Bandeja de Entrada",
+        "drafts": "Borradores",
+        "trash": "Papelera"
+    },
+    "massActions": {
+        "markAsRead": "Mark as Read",
+        "markAsNotRead": "Marcar como No Leído",
+        "markAsImportant": "Marcar como Importante",
+        "markAsNotImportant": "Marcar como No Importante",
+        "moveToTrash": "Mover a la Papelera"
+    }
+}

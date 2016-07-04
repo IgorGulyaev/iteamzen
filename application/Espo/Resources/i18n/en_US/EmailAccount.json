@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "name": "Name",
+        "status": "Status",
+        "host": "Host",
+        "username": "Username",
+        "password": "Password",
+        "port": "Port",
+        "monitoredFolders": "Monitored Folders",
+        "ssl": "SSL",
+        "fetchSince": "Fetch Since",
+        "emailAddress": "Email Address",
+        "sentFolder": "Sent Folder",
+        "storeSentEmails": "Store Sent Emails",
+        "keepFetchedEmailsUnread": "Keep Fetched Emails Unread"
+    },
+    "links": {
+        "filters": "Filters"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Inactive": "Inactive"
+        }
+    },
+    "labels": {
+        "Create EmailAccount": "Create Email Account",
+        "IMAP": "IMAP",
+        "Main": "Main",
+        "Test Connection": "Test Connection"
+    },
+    "messages": {
+        "couldNotConnectToImap": "Could not connect to IMAP server",
+        "connectionIsOk": "Connection is Ok"
+    },
+    "tooltips": {
+        "monitoredFolders": "You can add 'Sent' folder to sync emails sent from external email client.",
+        "storeSentEmails": "Sent emails will be stored on IMAP server. Email Address should much address an email is being sent from."
+    }
+}

@@ -1,0 +1,13 @@
+[
+    "account",
+    "dateSent",
+    "emailAddress",
+    "isNotRead",
+    "isImportant",
+    "name",
+    "status",
+    "parent",
+    "teams",
+    "users",
+    "createdAt"
+]

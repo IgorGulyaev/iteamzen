@@ -1,0 +1,5 @@
+.idea/*.*
+data/cache/*.*
+data/logs/*.*
+data/upload/*.*
+data/config.php

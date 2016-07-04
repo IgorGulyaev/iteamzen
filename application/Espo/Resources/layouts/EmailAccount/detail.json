@@ -1,0 +1,41 @@
+[
+    {
+        "label":"Main",
+        "rows":[
+            [
+                {"name":"emailAddress"},
+                {"name":"status"}
+            ],
+            [
+                {"name":"name"},
+                {"name":"fetchSince"}
+            ]
+        ]
+    },
+    {
+        "label":"IMAP",
+        "rows":[
+            [
+                {"name":"host"},{"name":"ssl"}
+            ],
+            [
+                {"name":"port"},{"name":"username"}
+            ],
+            [
+                {"name":"monitoredFolders"},{"name":"password"}
+            ],
+            [
+                false,{"name":"keepFetchedEmailsUnread"}
+            ],
+            [
+                false, {"name":"storeSentEmails"}
+            ],
+            [
+                false, {"name":"sentFolder"}
+            ],
+            [
+                {"name": "testConnection", "customLabel": null, "view": "EmailAccount.Fields.TestConnection"}, false
+            ]
+        ]
+    }
+]

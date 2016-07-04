@@ -1,0 +1,25 @@
+[
+    {
+        "label": "Configuration",
+        "rows": [
+            [{"name": "authenticationMethod"}, {"name": "authTokenLifetime"}],
+            [false, {"name": "authTokenMaxIdleTime"}]
+        ]
+    },
+    {
+        "label": "LDAP",
+        "name": "LDAP",
+        "rows": [
+            [{"name": "ldapHost"}, {"name": "ldapPort"}],
+            [{"name": "ldapAuth"}, {"name": "ldapSecurity"}],
+            [{"name": "ldapUsername"}, false],
+            [{"name": "ldapPassword"}, false],
+            [{"name": "ldapBindRequiresDn"}, {"name": "ldapUserLoginFilter"}],
+            [{"name": "ldapBaseDn"}, false],
+            [{"name": "ldapAccountCanonicalForm"}, false],
+            [{"name": "ldapAccountDomainName"}, {"name": "ldapAccountDomainNameShort"}],
+            [{"name": "ldapTryUsernameSplit"}, {"name": "ldapOptReferrals"}],
+            [{"name": "ldapCreateEspoUser"}, false]
+        ]
+    }
+]
